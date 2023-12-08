@@ -1,0 +1,27 @@
+:root {
+    --text-color: #222733;
+    --primary-color: #FFFFFF;
+    --secondly-color: #545E76;
+    --site-color: #181B20;
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+}
+
+.site {
+    padding: 0 2.4rem 0 0;
+    background-color: var(--site-color);
+}
+
+.but {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.men{
+    display: flex;
+    justify-content:space-between;
+}
+
