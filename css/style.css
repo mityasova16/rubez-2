@@ -1,14 +1,13 @@
 :root {
-    --text-color: #222733;
-    --primary-color: #FFFFFF;
-    --secondly-color: #545E76;
+    --text-color: #FFFFFF;
     --site-color: #181B20;
-    font-family:'Nunito Sans', sans-serif;
+    --knopka-color: #0A0C0F;
+    font-family: 'Inter', sans-serif;
     font-size: 62.5%;
 }
 
 .site {
-    padding: 0 2.4rem 0 0;
+    padding: 0 2.4rem 0 2.4rem;
     background-color: var(--site-color);
 }
 
@@ -25,3 +24,63 @@
     justify-content:space-between;
 }
 
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.rectangle{
+    width: 100%;
+    max-width: 32rem;
+    border: 1px solid;
+    margin: auto;
+    margin-top: 4.8rem;
+    background: var(--text-color);
+    text-align: center;
+    display: block;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    border-radius: 1.6rem;
+}
+
+.knopka{
+    color: var(--knopka-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 2.4rem;
+}
+
+.glav{
+    color: var(--text-color);
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+}
+
+.nazv{
+    color: var(--text-color);
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+.info{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.vstav{
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 0.36;
+    line-height: 2.4rem;
+}
